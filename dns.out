@@ -1,0 +1,15 @@
+rmorris@linuxServer:/mnt/ProgSSD/dnsperftest$ bash ./dnstest.sh |sort -k 22 -n
+                  test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average
+level3            6 ms    6 ms    6 ms    7 ms    6 ms    7 ms    6 ms    6 ms    5 ms    6 ms      6.10
+cloudflare        6 ms    6 ms    6 ms    7 ms    6 ms    6 ms    6 ms    10 ms   7 ms    6 ms      6.60
+neustar           7 ms    6 ms    7 ms    7 ms    8 ms    6 ms    7 ms    8 ms    6 ms    6 ms      6.80
+norton            7 ms    6 ms    6 ms    8 ms    8 ms    7 ms    6 ms    6 ms    7 ms    7 ms      6.80
+cleanbrowsing     6 ms    25 ms   9 ms    7 ms    7 ms    7 ms    7 ms    7 ms    8 ms    8 ms      9.10
+google            6 ms    7 ms    7 ms    14 ms   14 ms   14 ms   7 ms    15 ms   7 ms    21 ms     11.20
+opendns           12 ms   7 ms    5 ms    7 ms    7 ms    127 ms  7 ms    21 ms   7 ms    7 ms      20.70
+comodo            44 ms   44 ms   46 ms   44 ms   44 ms   44 ms   45 ms   45 ms   45 ms   44 ms     44.50
+127.0.0.53        1 ms    89 ms   1 ms    71 ms   140 ms  1 ms    1 ms    140 ms  1 ms    1 ms      44.60
+quad9             45 ms   48 ms   46 ms   44 ms   47 ms   45 ms   46 ms   46 ms   47 ms   47 ms     46.10
+freenom           35 ms   65 ms   34 ms   35 ms   47 ms   99 ms   35 ms   91 ms   35 ms   57 ms     53.30
+yandex            159 ms  191 ms  158 ms  159 ms  168 ms  157 ms  158 ms  160 ms  159 ms  192 ms    166.10
+adguard           168 ms  166 ms  168 ms  167 ms  245 ms  166 ms  168 ms  213 ms  162 ms  167 ms    179.00
